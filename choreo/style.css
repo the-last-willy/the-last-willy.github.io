@@ -1,0 +1,9 @@
+.striped {
+    background: repeating-linear-gradient(
+            45deg,
+            black,
+            black 1px,
+            white 1px,
+            white 5px,
+    );
+}

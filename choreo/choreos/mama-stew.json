@@ -1,0 +1,138 @@
+{
+  "youtubeId": "sF6Ombx8438",
+
+  "beats": [
+    [-16, 0],
+    [0, 7.664082855041504],
+    [32, 15.025146940872192],
+    [64, 22.380676158309935],
+    [96, 29.587321940872194],
+    [128, 36.92532892561341],
+    [160, 44.16507899046326],
+    [192, 51.54896598283386],
+    [224, 58.94707004005432],
+    [256, 66.39646596566773],
+    [288, 73.81377808010865],
+    [320, 81.21188299427796],
+    [352, 88.88590095231629],
+    [384, 96.32569202288818],
+    [416, 103.93342103242493],
+    [448, 111.42929596185303],
+    [480, 118.93390107820129],
+    [512, 126.51696317166137],
+    [544, 134.03696298092652],
+    [576, 141.49390111253356]
+  ],
+  "structure": [
+    {
+      "start": 0,
+      "duration": 32,
+      "name": "Itches"
+    },
+    {
+      "duration": 32,
+      "name": "4 x Kick, Kick, Double Kick"
+    },
+    {
+      "duration": 31,
+      "name": "Hip Hop"
+    },
+    {
+      "duration": 24,
+      "name": "3 x Squat Ch"
+    },
+    {
+      "duration": 8,
+      "name": "Jumping Jacks"
+    },
+    {
+      "duration": 8,
+      "name": "B Back"
+    },
+    {
+      "duration": 8,
+      "name": "B Front"
+    },
+    {
+      "duration": 8,
+      "name": "B Back"
+    },
+    {
+      "duration": 9,
+      "name": "B Front"
+    },
+    {
+      "duration": 8,
+      "name": "Pivots"
+    },
+    {
+      "duration": 8,
+      "name": "Kicks"
+    },
+    {
+      "duration": 8,
+      "name": "Pivots"
+    },
+    {
+      "duration": 7,
+      "name": "Slip Slops"
+    },
+    {
+      "duration": 24,
+      "name": "3 x Fall Off + Hallelujah"
+    },
+    {
+      "start": 256,
+      "duration": 32,
+      "name": "Kicks"
+    },
+    {
+      "duration": 32,
+      "name": "Hip Hop"
+    },
+    {
+      "duration": 24,
+      "name": "Squat Ch"
+    },
+    {
+      "duration": 8,
+      "name": "JJ"
+    },
+    {
+      "duration": 8,
+      "name": "BB"
+    },
+    {
+      "duration": 8,
+      "name": "BF"
+    },
+    {
+      "duration": 8,
+      "name": "BB"
+    },
+    {
+      "duration": 8,
+      "name": "BF"
+    },
+    {
+      "duration": 8,
+      "name": "R"
+    },
+    {
+      "duration": 8,
+      "name": "K"
+    },
+    {
+      "duration": 8,
+      "name": "R"
+    },
+    {
+      "duration": 8,
+      "name": "S"
+    },
+    {
+      "duration": 24,
+      "name": "Fall Off"
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "youtubeId": "1SkoD2CIakQ",
+
+  "beats": [
+    [0, 0.7222288931884766],
+    [32, 12.960182049591065],
+    [64, 24.965390059127806],
+    [96, 36.830513032424925],
+    [128, 48.72674487411499],
+    [160, 60.70172388555908],
+    [192, 72.83244783215332],
+    [224, 84.54568398092651],
+    [256, 96.3646420858307],
+    [288, 107.97506012397766],
+    [320, 119.66812500190734],
+    [352, 131.35645809918213],
+    [384, 142.91756091989134]
+  ],
+  "structure": [
+    {
+      "start": 0,
+      "end": 31,
+      "name": "Intro"
+    },
+    {
+      "start": 31,
+      "end": 55,
+      "name": "Shim Sham",
+      "color": "Plum"
+    },
+    {
+      "start": 55,
+      "end": 63,
+      "name": "FB",
+      "color": "IndianRed"
+    },
+    {
+      "start": 63,
+      "end": 96,
+      "name": "Push + Cross Over",
+      "color": "SkyBlue"
+    },
+    {
+      "start": 96,
+      "end": 119,
+      "name": "Tacky Annie",
+      "color": "YellowGreen"
+    },
+    {
+      "start": 119,
+      "end": 127,
+      "name": "FB",
+      "color": "IndianRed"
+    },
+    {
+      "start": 127,
+      "end": 135,
+      "name": "2HB",
+      "color": "Coral"
+    },
+    {
+      "start": 135,
+      "end": 143,
+      "name": "FB",
+      "color": "IndianRed"
+    },
+    {
+      "start": 143,
+      "end": 151,
+      "name": "2HB",
+      "color": "Coral"
+    },
+    {
+      "start": 151,
+      "end": 159,
+      "name": "FB",
+      "color": "IndianRed"
+    },
+    {
+      "start": 159,
+      "end": 191,
+      "name": "TU MARCHES",
+      "color": "LightGray"
+    },
+    {
+      "start": 191,
+      "end": 215,
+      "name": "Shim Sham",
+      "color": "Plum"
+    },
+    {
+      "start": 215,
+      "end": 223,
+      "name": "R",
+      "color": "LightGray"
+    },
+    {
+      "start": 223,
+      "end": 256,
+      "name": "Push + Cross Over",
+      "color": "SkyBlue"
+    },
+    {
+      "start": 256,
+      "end": 279,
+      "name": "Tacky Annie",
+      "color": "YellowGreen"
+    },
+    {
+      "start": 279,
+      "end": 287,
+      "name": "R",
+      "color": "LightGray"
+    },
+    {
+      "start": 287,
+      "end": 295,
+      "name": "2HB",
+      "color": "Coral"
+    },
+    {
+      "start": 295,
+      "end": 303,
+      "name": "R",
+      "color": "LightGray"
+    },
+    {
+      "start": 303,
+      "end": 311,
+      "name": "2HB",
+      "color": "Coral"
+    },
+    {
+      "start": 311,
+      "end": 319,
+      "name": "R",
+      "color": "LightGray"
+    },
+    {
+      "start": 319,
+      "end": 351,
+      "name": "Boogie Forward"
+    },
+    {
+      "start": 351,
+      "end": 383,
+      "name": "Shorty George"
+    }
+  ]
+}
