@@ -15,16 +15,21 @@ export function DraggableArea({onDragStart, onDrag, onDragEnd}) {
         position: [0, 0],
     })
 
-    function onMouseDown(e) {
+    const ref = useRef()
+
+    function onPointerDown(e) {
         setState(s => ({
             ...s,
             dragging: true,
             position: [e.clientX, e.clientY],
         }))
+
+        ref.current.style.cursor = "grabbing"
+
         onDragStart()
     }
 
-    function onMouseMove(e) {
+    function onPointerMove(e) {
         if (state.dragging) {
             let [x, y] = [e.clientX, e.clientY]
 
@@ -37,28 +42,36 @@ export function DraggableArea({onDragStart, onDrag, onDragEnd}) {
         }
     }
 
-    function onMouseOut(e) {
+    function onPointerOut(e) {
         setState(s => ({...s, dragging: false}))
+
+        ref.current.style.cursor = "grab"
     }
 
-    function onMouseUp(e) {
+    function onPointerUp(e) {
         setState(s => ({...s, dragging: false}))
+
+        ref.current.style.cursor = "grab"
     }
+
+
 
     let classes = "position-absolute start-0 top-0 w-100 h-100 striped"
+    let style = "cursor: grab"
 
     return html`
         <div
                 aria-label="draggable area"
                 class=${classes}
+                style=${style}
 
-                onMouseDown=${onMouseDown}
-                onMouseMove=${onMouseMove}
-                onMouseOut=${onMouseOut}
-                onMouseUp=${onMouseUp}
-        >
-
-        </div>
+                onPointerDown=${onPointerDown}
+                onPointerMove=${onPointerMove}
+                onPointerOut=${onPointerOut}
+                onPointerUp=${onPointerUp}
+                
+                ref=${ref}
+        />
     `
 }
 

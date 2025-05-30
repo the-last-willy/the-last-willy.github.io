@@ -56,7 +56,8 @@ export function Canvas({children}) {
 
     useLayoutEffect(() => {
         loopAnimationFrame(() => context.draw())
-        const rect = containerRef.current.getBoundingClientRect()
+        console.log(containerRef)
+        const rect = containerRef.current.base.getBoundingClientRect()
         console.log(rect)
         canvasRef.current.width = rect.width
         canvasRef.constructor.height = rect.height
@@ -64,18 +65,12 @@ export function Canvas({children}) {
 
     return html`
         <${CurrentCanvas.Provider} value=${context}>
-            <div
-                    aria-label="canvas container"
-                    class="d-inline-block w-100 h-100"
-                    style="position: relative"
-                    
-                    ref=${containerRef}
-            >
+            <${CanvasContainer} ref=${containerRef}>
                 <canvas class="d-block" ref=${canvasRef} width="1000" height="500"></canvas>
                 <div class="canvas-overlay w-100 h-100" style="position: absolute; top: 0; left: 0;">
                     ${children}
                 </div>
-            </div>
+            </CanvasContainer>
         </${CurrentCanvas.Provider}>
     `
 }
@@ -90,6 +85,18 @@ export function CanvasComponent({children, draw}) {
 
     return html`
         ${children}
+    `
+}
+
+export function CanvasContainer({children, ref}) {
+    return html`
+        <div
+                aria-label="canvas container"
+                class="w-100 h-100"
+                style="position: relative"
+        >
+            ${children}
+        </div>
     `
 }
 
